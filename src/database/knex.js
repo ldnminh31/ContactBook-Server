@@ -6,5 +6,7 @@ module.exports = require("knex")({
     user: process.env.DB_USER,
     password: process.env.DB_PASS,
     database: process.env.DB_NAME,
+    // add
+    socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock',
   },
 });
